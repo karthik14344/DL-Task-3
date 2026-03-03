@@ -1,0 +1,87 @@
+﻿Lab Task: Large Language Models and LangChain Application
+
+
+Unit: Unit 4 – Large Language Models (LLMs)
+Submission Mode: Code + Report + Demonstration
+Objective
+The objective of this lab task is to understand Large Language Models (LLMs), explore different model types, perform fine-tuning of Small Language Models (SLMs), evaluate model performance, understand privacy considerations through local LLM deployment, and develop an LLM-powered application using LangChain.
+Part A – Understanding LLM Types
+Students must select two language models:
+• One Small Language Model (SLM)
+• One Dense Language Model
+
+Compare the following:
+• Model size and parameters
+• Memory usage
+• Output quality
+
+Deliverable: Comparison table with observations.
+Part B – Fine-Tuning a Small Language Model
+Fine-tune a pretrained Small Language Model using a custom dataset.
+
+Dataset options (choose one):
+• FAQ dataset (University/College)
+• Customer support Q&A
+• News summaries
+• Agriculture advisory text
+
+Steps:
+1. Load pretrained model using Hugging Face.
+2. Prepare and preprocess dataset.
+3. Fine-tune for 2–3 epochs.
+4. Generate outputs before and after training.
+
+Deliverables:
+• Training loss graph
+• Output comparison.
+Part C – LLM Evaluation
+Evaluate model outputs using:
+• Perplexity (if applicable)
+• BLEU or ROUGE score
+• Human evaluation metrics:
+ - Fluency
+ - Relevance
+ - Correctness
+
+Deliverable: Evaluation table and observations.
+Part D – Local LLM and Data Privacy
+Run an LLM locally without using cloud APIs.
+
+Possible tools:
+• Ollama
+• Local Hugging Face inference
+• GGUF models (optional)
+
+Students must discuss:
+• Advantages of local LLMs
+• Data privacy benefits
+• API-based vs local deployment comparison.
+Part E – LangChain Application (Core Task)
+Build an LLM-powered application using LangChain. Choose one:
+• Document Question Answering System
+• Research Paper Assistant
+• Course Helpdesk Bot
+• PDF Chatbot
+
+Pipeline:
+Document → Chunking → Embeddings → Retrieval → LLM Response
+
+Required Components:
+• LangChain document loader
+• Text splitter
+• Vector database
+• Retrieval chain
+Part F – Training and Evaluation Challenges
+Write a short analysis (maximum 1 page) discussing:
+• Challenges in training LLMs
+• Data requirements
+• Compute limitations
+• Evaluation difficulties
+• Hallucination issues
+Submission Requirements
+Students must submit:
+• Python Notebook / Source Code
+• Screenshots of outputs
+• Training graphs
+• LangChain application results
+• 3–4 page report

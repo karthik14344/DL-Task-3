@@ -1,0 +1,34 @@
+# Core
+torch
+torchvision
+torchaudio
+
+# Hugging Face
+transformers
+accelerate
+datasets
+bitsandbytes
+peft
+sentencepiece
+
+# Evaluation
+rouge-score
+nltk
+evaluate
+
+# LangChain (Part E - PDF Chatbot)
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+pypdf
+unstructured
+
+# Utilities
+matplotlib
+pandas
+numpy
+tqdm
+psutil
+huggingface_hub
